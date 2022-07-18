@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>stackovermath</title>
+        <style>
+            body{
+                background-color: #a8bf87;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            *{
+                margin:0;
+                padding:0;
+            }
+            .atas-1{
+                width:100%;
+                margin:0 auto;
+                overflow: hidden;
+                height: 75px;
+            }
+            .atas-2{
+                width:100%;
+                margin:0 auto;
+                overflow: hidden;
+                height: 90px;
+            }
+            .kotak-1{
+                width:100%;
+                max-width:150px;
+                height:50px;
+                background-color:white;
+                border-radius:0px 25px 25px 0px;
+                color:white;
+                font-size:10px;
+                margin-top:18px;
+                float:left;
+                box-shadow: 0px 3px 3px grey;
+            }
+            .kotak-2{
+                width:100%;
+                max-width:180px;
+                height:50px;
+                background-color:white;
+                border-radius:25px 0px 0px 25px;
+                color:white;
+                font-size:10px;
+                float:right;
+                margin-top:18px;
+                margin-right: 0px;
+                box-shadow: 0px 3px 3px grey;
+            }
+            .kotak-3{
+                width:100%;
+                max-width:230px;
+                height:50px;
+                background-color:white;
+                border-radius:0px 25px 25px 0px;
+                color:white;
+                font-size:10px;
+                margin-left:0px;
+                margin-top:20px;
+                float:left;
+                box-shadow: 0px 3px 3px grey;
+            }
+            .kotak-4{
+                width:100%;
+                max-width:220px;
+                height:50px;
+                background-color:white;
+                border-radius:25px 0px 0px 25px;
+                color:white;
+                font-size:10px;
+                float:right;
+                margin-top:20px;
+                margin-right: 0px;
+                box-shadow: 0px 3px 3px grey;
+            }
+            h2{
+                margin-top:10px;
+            }
+            .welcome{
+                background-color:none;
+                color:white;
+                text-shadow:0px 3px 3px grey ;
+                font-size: 300%;
+                margin:0 auto;
+                margin-top:50px;
+                text-align:center;
+                height:80px;
+            }
+            .deskripsi{
+                color:white;
+                text-shadow:0px 3px 3px grey ;
+                font-size: 90%;
+                margin:0 auto;
+                margin-top: 10 px;
+                text-align:center;
+                max-width:400px;
+                min-width:300px;
+            }
+            .btn1{
+                display:flex;
+                width :15%;
+                max-width : 100px;
+                height:20%;
+                padding:0 5px;
+                background:white;
+                border-radius:15px;
+                font-size:8px;
+                font-weight:500;
+                cursor:pointer;
+                margin-left:46%;
+                margin-top:90px;
+                justify-content:center;
+                height:45px;
+                border:none;
+                box-shadow: 0px 3px 3px grey;
+            }
+            .btn1:hover{
+                background:#c1eb86;
+            }
+            .btn1:active{
+                background:#7ea842;
+            }
+            .btn-daftar{
+                display:inline-flex;
+                color:darkgreen;
+                align-items:center;
+                font-size:13px;
+                padding:0 10px;
+                height:7%;
+                position:absolute;
+            }
+            .btn2{
+                display:flex;
+                width :15%;
+                max-width:100px;
+                height:20%;
+                padding:0 5px;
+                background:white;
+                border-radius:15px;
+                font-size:8px;
+                font-weight:500;
+                cursor:pointer;
+                margin-left:46%;
+                margin-top:30px;
+                justify-content:center;
+                height:45px;
+                border:none;
+                box-shadow: 0px 3px 3px grey;
+            }
+            .btn2:hover{
+                background:#c1eb86;
+            }
+            .btn2:active{
+                background:#7ea842;
+            }
+            .btn-login{
+                display:inline-flex;
+                color:darkgreen;
+                align-items:center;
+                font-size:13px;
+                padding:0 10px;
+                height:7%;
+                position:absolute;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="atas-1">
+            <div class="kotak-1"></div>
+            <div class="kotak-2"></div>
+        </div>
+        <div class="atas-2">
+            <div class="kotak-3"></div>
+            <div class="kotak-4"></div>
+        </div>
+        <div class="welcome">
+            <h2>
+                Welcome!
+            </h2>
+        </div>
+        <div class="deskripsi">
+            <h2>
+                Cari pekerjaanmu bersama kami dan raih kebebasan finansial
+            </h2>
+        </div>
+        <button type = "button" class = "btn1" onclick="window.location.href='/daftar';">
+            <div class="btn-daftar">Daftar</div>
+        </button>
+        <button type = "button" class = "btn2" onclick="window.location.href='/masuk';">
+            <div class="btn-login">Masuk</div>
+        </button>
+    </body>
+</html>
